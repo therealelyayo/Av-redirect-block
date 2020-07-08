@@ -1,0 +1,19 @@
+<html>
+<head>
+<script langquage='javascript'>
+var url=document.location; //ตรวจสอบว่าผู้ใช้ต้องการเรียกเข้าสู่โดเมนไหน
+if ((url=="http://www.firstdomainname.com") || (url=="http://www.firstdomainname.com/"))
+{
+window.location="http://www.yourdomainname.com/firstdomainname";
+}
+else if ((url=="http://www.seconddomainname.com") || (url=="http://www.seconddomainname.com/"))
+{
+window.location="http://www.yourdomainname.com/seconddomainname";
+}
+else
+{
+window.location="http://www.yourdomainname.com/underconstruction.html";
+}
+</script>
+</head>
+</html>
